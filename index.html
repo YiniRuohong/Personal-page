@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Untitled</title>
+    <title>若鸿的主页</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -25,10 +25,10 @@
     <!-- Loader -->
     <link rel="stylesheet" href="assets/css/loader.css" />
     <div class="loader">
-      <div class="container">
-        <h1>🍊</h1>
-        <p>摇匀</p>
-        <p>再喝</p>
+		<div class="divLoading">
+			<div class="loadingItem1"></div>
+			<div class="loadingItem2"></div>
+			<div class="loadingItem3"></div>
       </div>
     </div>
 
@@ -201,7 +201,7 @@
             },
             {
               name: "Blog",
-              icon: "icon brands fa-file-text",
+              icon: "icon solid fa-blog",
               desc: "小城寒风",
               content:
                 "https://blog.atago.moe/",
@@ -209,10 +209,18 @@
               jump: true,
             },
             {
-              name: "Astricia",
-              icon: "icon brands Example of address-card fa-address-card",
-              desc: "Astricia",
-              content: "https://oc.atago.moe/",
+              name: "Misskey",
+              icon: "icon brands fa-mastodon",
+              desc: "@yiniruohong@dvd.chat",
+              content: "https://dvd.chat/@yiniruohong",
+              show: false,
+              jump: true,
+            },
+            {
+              name: "Mail",
+              icon: "fa-regular fa-envelope",
+              desc: "邮箱",
+              content: "mailto:i@atago.moe",
               show: false,
               jump: true,
             },
@@ -221,35 +229,35 @@
           //Pages content
           page: [
             {
-              title: "Page 1",
+              title: "关于我",
               texts: [
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore facere accusamus quae nesciunt at fuga dicta vitae quidem reiciendis. Quos blanditiis corporis vel iusto reprehenderit ratione distinctio fugiat quae sed.",
+                "高中生在读，18y.o.，热爱历史与技术，喜欢读书与旅行，Steam爱好者，ACG中毒，欢迎与我做朋友！",
               ],
-              html: "",
-              imgs: ["images/bg.jpg"],
+              html: "<a href='https://oc.atago.moe' target='_blank'>有一个可爱的女儿Astricia</a>",
+              imgs: ["images/八代.PNG"],
             },
             {
-              title: "Page 2",
-              texts: ["Some text", "And some text"],
-              html: "<h2>HTML Support</h2>",
+              title: "我的其他站点",
+              texts: [""],
               imgs: [""],
+              html: "<a href='https://tz.atago.moe' target='_blank'>许久没有维护的探针</a>    <a href='https://pan.atago.moe' target='_blank'>几近荒废的网盘</a>    <a href='https://sub.atago.moe' target='_blank'>自家订阅转换（不做任何担保，请自行辨别）...修建中</a>",
             },
             {
-              title: "Page 3",
-              texts: ["Multi images"],
-              imgs: ["images/bg.jpg", "images/demoQR.png"],
+              title: "Todo List",
+              texts: ["备战高考","去逛第一次漫展","学习画画","给女儿写故事","去旅游","去见网友","读书"],
+              imgs: [""],
               html: "",
             },
             {
-              title: "Page 4",
-              texts: ["Another Demo"],
-              html: '<a onclick="todonate()" style="color:#fff; background-color:#f0a1a8; border-radius: 0.3em; padding: 0.2em; cursor: pointer;"><<u>Donate!</u>></a><br /><p style="color:#ccc; font-size:0.7em;">Last updated: Apr. 14, 2021<p>',
-              imgs: [""],
+              title: "Contact me via Telegram",
+              texts: ["最便捷有效找到我的方式，尽管多数时间我并不在"],
+              imgs: ["images/QR.PNG"],
+              html: "",
             },
             {
               title: "Eastern egg page!",
               texts: ["Can only access with ?page=#"],
-              html: "<a href='https://github.com/Jiaocz/Personal-page' target='_blank'>Origin project</a>",
+              html: "<a href='https://github.com/Jiaocz/Personal-page' target='_blank'>Editor:Origin project</a>",
             },
           ],
           /*            Change ends here                 */
